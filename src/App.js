@@ -4,7 +4,7 @@ import React from 'react';
 // import Nav from './components/Nav';
 import Home from './Home';
 // import Form from './components/Form'
-// import Place from './components/Place'
+import Place from './Place'
 // import Pieces from './components/Pieces'
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
       {/* <Nav /> */}
       <Switch>
         <Route exact path='/' component={Home} />
-        {/* <Route exact path='/register' component={Form} />
+        {/* <Route exact path='/register' component={Form} /> */}
         <Route exact path='/place' component={Place} />
-        <Route exact path='/pieces' component={Pieces} /> */}
+        {/* <Route exact path='/pieces' component={Pieces} />  */}
       </Switch>
     </div>
     </BrowserRouter>
