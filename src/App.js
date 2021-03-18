@@ -5,7 +5,7 @@ import React from 'react';
 import Home from './Home';
 // import Form from './components/Form'
 import Place from './Place'
-// import Pieces from './components/Pieces'
+import Pieces from './Pieces'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Route exact path='/' component={Home} />
         {/* <Route exact path='/register' component={Form} /> */}
         <Route exact path='/place' component={Place} />
-        {/* <Route exact path='/pieces' component={Pieces} />  */}
+        <Route exact path='/pieces' component={Pieces} /> 
       </Switch>
     </div>
     </BrowserRouter>
