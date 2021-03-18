@@ -4,7 +4,7 @@ import { Jutsu } from 'react-jutsu'
 
 const Video = () => {
   const [room, setRoom] = useState('knowyourplace03232021');
-  const [name, setName] = useState('');
+  const [name, setName] = useState('YourName');
   const [call, setCall] = useState(false);
 
   const handleClick = event => {
