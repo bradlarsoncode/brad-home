@@ -89,6 +89,28 @@ export const photos = [
     height: 3,
     id: 6
   },
-    
-    
+  {
+    src: "https://webfilms-films.s3.amazonaws.com/place/bread.jpeg",
+    srcSet: ["https://webfilms-films.s3.amazonaws.com/place/bread.jpeg 1700w"],
+    sizes: ["43vw"],
+    width: 4,
+    height: 3,
+    id: 7
+  },  
+  {
+    src: "https://webfilms-films.s3.amazonaws.com/place/game.jpeg",
+    srcSet: ["https://webfilms-films.s3.amazonaws.com/place/game.jpeg 1700w"],
+    sizes: ["43vw"],
+    width: 4,
+    height: 3,
+    id: 7
+  }, 
+  {
+    src: "https://webfilms-films.s3.amazonaws.com/place/tea.jpeg",
+    srcSet: ["https://webfilms-films.s3.amazonaws.com/place/tea.jpeg 1700w"],
+    sizes: ["43vw"],
+    width: 4,
+    height: 3,
+    id: 7
+  },   
 ];
