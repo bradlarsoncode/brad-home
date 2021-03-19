@@ -15,27 +15,19 @@ class Splash extends React.Component {
                     <div className="banner">
                         <img className="logo" src={logo}/>
                         
-                        <Link to="/login" >
+                        <a href="/login" >
                             <input className="sign-in-button"
                                 type="submit" value="Sign In" />
-                        </Link>
+                        </a>
                         <h1 className="unlimited">Unlimited movies, films,<br />
                             flicks, and more</h1>
-                            {birthday ? 
+                           
                                 <form className="sign-up">
-                                    <Link to="/signup">
-                                        {/* <button className="free">TRUE</button> */}
+                                    <a href ="https://bradlarsoncode.github.io/Peace/" target="_blank"  rel="noopener noreferrer">
                                             <button className="free">TRY 30 DAYS FREE</button>
-                                    </Link>
-                                </form> :
-                                <form className="sign-up">
-                                    <Link to="/home">
-                                            {/* <button className="free">KNOW YOUR PLACE</button> */}
-                                            {/* <img src='https://webfilms-films.s3.amazonaws.com/key.png' className="free"/> */}
-                                    </Link>
-                                </form>
-                            }
-
+                                    </a>
+                                </form> 
+                    
                         <p className="ready">Ready to watch? Click below to create or restart your membership.</p>
                         <h2 className="watch-anywhere">Watch anywhere. Cancel anytime.</h2>   
                     </div>
