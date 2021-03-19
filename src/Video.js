@@ -13,17 +13,17 @@ const Video = () => {
   };
 
   return call ? (
-    <Jutsu className='video'
-      roomName={room}
-      displayName={name}
-      containerStyles={{ width: '1200px', height: '800px' }}
-      onMeetingEnd={() => console.log('Meeting has ended')}
-      loadingComponent={<p>loading ...</p>}
-      errorComponent={<p>Oops, something went wrong</p>} />
-  ) : (
-      <button onClick={handleClick} type='submit'>
-        Join Group Video Chat
-      </button>
+      <Jutsu className='video'
+        roomName={room}
+        displayName={name}
+        containerStyles={{ display: 'block', width: '1200px', height: '800px', margin: 'auto', right: 'auto'}}
+        onMeetingEnd={() => console.log('Meeting has ended')}
+        loadingComponent={<p>loading ...</p>}
+        errorComponent={<p>Oops, something went wrong</p>} />
+    ) : (
+          <button onClick={handleClick} type='submit'>
+            Join Group Video Chat
+          </button>
   )
 }
 

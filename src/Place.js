@@ -8,7 +8,7 @@ export default function Place() {
     return (
         <div className='piecesbg'>
             <Nav/>
-            <Video/>
+            <Video id='video' />
         </div>
     )
 }
