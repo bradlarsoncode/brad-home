@@ -1,7 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Enjoy from './Enjoy';
 import './Splash.css';
+import { ExternalLink } from 'react-external-link';
+
 // import banner from './banner.png';
 import logo from './logo.png'
 
@@ -22,11 +23,11 @@ class Splash extends React.Component {
                         <h1 className="unlimited">Unlimited movies, films,<br />
                             flicks, and more</h1>
                            
-                                <form className="sign-up">
-                                    <a href ="https://bradlarsoncode.github.io/Peace/" target="_blank"  rel="noopener noreferrer">
+                                {/* <form className="sign-up"> */}
+                                    <ExternalLink href="https://bradlarsoncode.github.io/Peace/">
                                             <button className="free">TRY 30 DAYS FREE</button>
-                                    </a>
-                                </form> 
+                                    </ExternalLink>
+                                {/* </form>  */}
                     
                         <p className="ready">Ready to watch? Click below to create or restart your membership.</p>
                         <h2 className="watch-anywhere">Watch anywhere. Cancel anytime.</h2>   
