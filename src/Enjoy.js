@@ -1,7 +1,6 @@
 import React from 'react';
 import videogif from './videogif.gif'
-import {Link} from 'react-router-dom';
-
+import { ExternalLink } from 'react-external-link';
 class Enjoy extends React.Component {
 
     render() {
@@ -13,7 +12,9 @@ class Enjoy extends React.Component {
                         <div >   
                             {/* <p className="watchon">Watch on WebTV, TurboGrafx-16, </p><br/> */}
                             <div>
+                                <ExternalLink href="https://photos.app.goo.gl/oaVRuuxCvAfqoL666">
                                 <img className="tvstyle" src={videogif} /> 
+                                </ExternalLink>
                             </div> 
                             {/* <p className="watchon">Microwaves, Zune, LaserDisc players, and</p><br/>
                             <p className="watchon">more.</p> */}
