@@ -1,0 +1,219 @@
+
+h1 {
+    color: white
+}
+
+.unlimited{
+    text-align: center;
+    font-size: 65px;
+    font-family: arial;
+    font-weight: bold;
+    margin: 180px;
+    opacity: 0.98
+}
+
+.watch-anywhere{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: arial;
+    margin: auto;
+    margin-top: -140px;
+    opacity: 0.98;
+    width: 800px
+}
+
+.ready{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    margin-top: -110px;
+    opacity: 0.98
+}
+
+.trial{
+   
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.sign-in-button{
+    background-color:red;
+    color: white;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    position: absolute; right: 80px; top: 40px; 
+    border-radius: 5px;
+    border: none;
+}
+
+.sign-in-button:hover{
+    cursor: pointer;
+}
+
+.sign-up{
+    text-align: center;
+    input {
+        height: 65px;
+        width: 500px;
+        margin-top: -105px;
+        border: none;
+    }
+}
+
+.blackbg{
+    position: relative;
+    background-color: black;
+    height: 100vh;
+}
+
+.banner{
+    display: block;
+    outline: solid rgba(120, 120, 120, 0.35);
+    outline-width: 8px;
+    outline-style: solid;
+    background-image: url("https://webfilms-films.s3.amazonaws.com/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 747px;
+    width: 100%;
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+input {
+    height: 40px;
+}
+
+.free {
+    height: 55x;
+    text-justify: auto ;
+    width: 330px;
+    color: white;
+    background-color: red ;
+    border: none;
+    margin-top: -50;
+    display: inline-block;
+    font-size: 28px;
+    padding-bottom: 22px;
+    padding-top: 18px;
+    font: Arial ;
+}
+
+.free:hover{
+    cursor: pointer;
+}
+
+.subbar{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    height: 465px;
+    border: solid rgba(120, 120, 120, 0.3);
+    border-width: 0 0 8px 0;
+    border-style: solid;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.enjoyontv{
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: -16%;
+    margin-top: 6%;
+    margin-bottom: 1%;
+    display: inline-block;
+    opacity: 0;
+}
+
+.watchon{
+    color: white;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 26%;
+    margin-top: -.25%;
+}
+
+.tvstyle{
+    width: 30%;
+    float: right;
+    margin-top: -11.5%;
+    margin-right: 18%;
+}
+
+.splashbottom {
+    float: bottom;
+    opacity: 0.8;
+}
+
+
+.splashenjoy{
+
+}
+
+.wrapper{
+    padding-bottom: 2.5rem;
+    background-color: black;
+}
+
+.splashfooter{
+    background-color: black;
+    color: #757575;
+    width: 100%;
+    position: absolute;
+    height: 8rem;
+    bottom: 0; 
+    background-color: black;
+    border: solid rgba(120, 120, 120, 0.3);
+    border-width: 8px 0 0 0;
+    border-style: solid;
+    margin-bottom: 15px;
+}
+
+.splashfootertop{
+    color: #757575;
+    font-family: Arial;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 27px;
+    margin-right: 100px;
+    margin-left: 25.35%;
+    background-color: black;
+}
+
+.splashfooteritems{
+    color: #757575;
+    font-size: 13px;
+    font-family: Arial;
+    display: inline;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: -18%;
+    background-color: black;
+    text-decoration: none;
+    text-decoration-color: black ;
+   
+}
+
+.footfoot{
+    position: relative;
+}
