@@ -41,9 +41,11 @@ export default function Home() {
                                 {allUsers}
                             </ul> */} 
                         </div>
-                            <Link to="/place">
-                                <img src="https://webfilms-films.s3.amazonaws.com/place/door-1.png" id='btn1'></img>       
-                            </Link> 
+                            <span>
+                                <Link to="/place">
+                                    <img src="https://webfilms-films.s3.amazonaws.com/place/door-1.png" id='btn1'></img>       
+                                </Link> 
+                            </span>
                     </div>
                     <img className='stroke' src='https://webfilms-films.s3.amazonaws.com/place/stroke.png' alt='stroke'/> 
                 </div>

@@ -14,7 +14,7 @@ class Splash extends React.Component {
             <div className="blackbg">
                 <div className="wrapper">
                     <div className="banner">
-                        <ExternalLink href="https://webfilms-films.s3.amazonaws.com/videos/Scary/Boolala.mp4">
+                        <ExternalLink href="https://vimeo.com/444080204">
                             <img className="logo" src={logo}/>
                         </ExternalLink>
                         <ExternalLink href="https://photos.app.goo.gl/aCntBwLAs7CPn4Np8" >
