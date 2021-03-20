@@ -101,8 +101,8 @@ export const photos = [
     id: 6
   },
   {
-    src: "https://webfilms-films.s3.amazonaws.com/place/bread.jpeg",
-    srcSet: ["https://webfilms-films.s3.amazonaws.com/place/bread.jpeg 1700w"],
+    src: "https://webfilms-films.s3.amazonaws.com/place/bread2.jpeg",
+    srcSet: ["https://webfilms-films.s3.amazonaws.com/place/bread2.jpeg 1700w"],
     sizes: ["43vw"],
     width: 4,
     height: 3,
