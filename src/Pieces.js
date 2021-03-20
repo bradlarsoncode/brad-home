@@ -4,6 +4,7 @@ import { photos } from "./Photos";
 import { SRLWrapper } from "simple-react-lightbox";
 import './Place.css';
 import Nav from './Nav'
+import HyvorTalk from 'hyvor-talk-react';
 
 const options = {
   settings: {
@@ -36,6 +37,7 @@ function Pieces() {
             <Gallery photos={photos} className='photoscont'/>
         </SRLWrapper>
       </div>
+      <HyvorTalk.Embed websiteId={3590} />
     </div>
   );
 }
