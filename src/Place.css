@@ -1,7 +1,7 @@
 .place{
-    margin-top:10vh;
-    background-color: white;
-     display: flex;
+  margin-top:10vh;
+  background-color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -11,10 +11,10 @@
   position: relative;
   display: flex;
 	width: 85vw;
-    height: 85vh;
+  height: 85vh;
   /* center page with absolute position */
-    top: 0%; left: 50%; transform: translate(-50%, 0);
-    margin: 2em 0;
+  top: 0%; left: 50%; transform: translate(-50%, 0);
+  margin: 2em 0;
 	padding: 4em;
 	box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
 	background: #fffef0;

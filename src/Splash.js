@@ -2,8 +2,6 @@ import React from 'react';
 import Enjoy from './Enjoy';
 import './Splash.css';
 import { ExternalLink } from 'react-external-link';
-
-// import banner from './banner.png';
 import logo from './logo.png'
 
 class Splash extends React.Component {

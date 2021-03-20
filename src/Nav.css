@@ -1,16 +1,6 @@
 nav{
-    /* display: flex;
-    justify-content: space-between;
-    background-color: #0A0F4F;
-    padding: 10px 50px;
-    color: white; */
-    /* position: absolute; */
     justify-content: space-between;
     display: flex;
-	/* width: 85vw;
-    height: 85vh; */
-  /* center page with absolute position */
-    /* top: 0%; left: 100%; transform: translate(-50%, 0); */
     margin-left: 3em;
     margin-right: 3em;
 	padding: 10px 50px;
