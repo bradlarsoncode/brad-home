@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import SimpleReactLightbox from 'simple-react-lightbox'
+// import SimpleReactLightbox from 'simple-react-lightbox-pro'
+import SimpleReactLightbox from "simple-react-lightbox"
 
 ReactDOM.render(
     <SimpleReactLightbox>
-    <App />
+      <App />
     </SimpleReactLightbox>,
   document.getElementById('root')
 );

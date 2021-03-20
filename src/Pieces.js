@@ -13,19 +13,46 @@ import Nav from './Nav'
 //   { id: 4, caption: "captionfive" },
 //   { id: 5, caption: "captionsix" },
 //    { id: 6, caption: "caption7" }
-// ]
+// ];
+
+const options = {
+  settings: {
+    overlayColor: "rgb(25, 136, 124)",
+  },
+  buttons: {
+    backgroundColor: "#1b5245",
+    iconColor: "rgba(126, 172, 139, 0.8)",
+  },
+  
+caption: {
+  captionAlignment: 'start',
+  captionColor: '#FFFFFF',
+  captionContainerPadding: '20px 0 30px 0',
+  captionFontFamily: 'inherit',
+  captionFontSize: 'inherit',
+  captionFontStyle: 'inherit',
+  captionFontWeight: 'inherit',
+  captionTextTransform: 'inherit',
+  showCaption: true
+}, 
+};
+
 function Pieces() {
 
   return (
     <div className='piecesbg'>
       <Nav />
       <div className='pieces'>
-        <SRLWrapper >
+        <SRLWrapper 
+        // customCaptions={customCaptions}
+        options={options}
+        >
             <Gallery photos={photos} className='photoscont'/>
-        </SRLWrapper> 
+        </SRLWrapper>
       </div>
     </div>
   );
 }
 
 export default Pieces;
+

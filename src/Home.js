@@ -1,26 +1,26 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './Home.css';
-import $ from 'jquery';
+//import $ from 'jquery';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
 
 
-    useEffect(() => {
-        var today = new Date();
-        var day = today.getMonth();
-        var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-        console.log(day)
-        //   console.log("Today is : " + daylist[day] + ".");
-        if(daylist[day]!="" && daylist[day]!="Sunday"){
-        var hour = today.getHours();
-        var minute = today.getMinutes();
-        var second = today.getSeconds();
-            if(hour>="7" && hour<="22"){
-            $("#btn1").show();}
-            else{$("#btn1").hide()}
-        }
-    }, [])
+    // useEffect(() => {
+    //     var today = new Date();
+    //     var day = today.getMonth();
+    //     var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+    //     console.log(day)
+    //     //   console.log("Today is : " + daylist[day] + ".");
+    //     if(daylist[day]!="" && daylist[day]!="Sunday"){
+    //     var hour = today.getHours();
+    //     var minute = today.getMinutes();
+    //     var second = today.getSeconds();
+    //         if(hour>="7" && hour<="22"){
+    //         $("#btn1").show();}
+    //         else{$("#btn1").hide()}
+    //     }
+    // }, [])
 
     // const message = users.length > 0 ? "All Users" : "No Users Found"
 
@@ -43,7 +43,7 @@ export default function Home() {
                         </div>
                             <span>
                                 <Link to="/pieces">
-                                    <img src="https://webfilms-films.s3.amazonaws.com/place/door-1.png" id='btn1'></img>       
+                                    <img src="https://webfilms-films.s3.amazonaws.com/place/door-1.png" id='btn1' alt='door'></img>       
                                 </Link> 
                             </span>
                     </div>

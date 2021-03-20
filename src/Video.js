@@ -3,8 +3,10 @@ import './Video.css'
 import { Jutsu } from 'react-jutsu'
 
 const Video = () => {
-  const [room, setRoom] = useState('knowyourplace03232021');
-  const [name, setName] = useState('YourName');
+  // const [room, setRoom] = useState('knowyourplace03232021');
+  // const [name, setName] = useState('YourName');
+  const room = 'knowyourplace03232021';
+  const name = 'YourName';
   const [call, setCall] = useState(false);
 
   const handleClick = event => {
@@ -22,7 +24,7 @@ const Video = () => {
         errorComponent={<p>Oops, something went wrong</p>} />
     ) : (
           <button onClick={handleClick} type='submit' className='joinbutton'>
-            <img src='https://webfilms-films.s3.amazonaws.com/place/464-4646065_typewritter-typewriter-with-paper-png-transparent-png+copy.png'/>
+            <img src='https://webfilms-films.s3.amazonaws.com/place/464-4646065_typewritter-typewriter-with-paper-png-transparent-png+copy.png' alt='typewriter'/>
           </button>
   )
 }

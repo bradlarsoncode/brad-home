@@ -15,7 +15,7 @@ class Splash extends React.Component {
                 <div className="wrapper">
                     <div className="banner">
                         <ExternalLink href="https://vimeo.com/444080204">
-                            <img className="logo" src={logo}/>
+                            <img className="logo" src={logo} alt='webfilms logo'/>
                         </ExternalLink>
                         <ExternalLink href="https://photos.app.goo.gl/aCntBwLAs7CPn4Np8" >
                             <input className="sign-in-button" type="submit" value="Sign In" />

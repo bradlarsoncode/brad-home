@@ -6,14 +6,14 @@ class Enjoy extends React.Component {
     render() {
         return <div className="subbar"> 
         {/* <Link to="/home"> */}
-            <img src='https://webfilms-films.s3.amazonaws.com/keykey.png' className="enjoyontv"/>
+            <img src='https://webfilms-films.s3.amazonaws.com/keykey.png' className="enjoyontv" alt='key'/>
         {/* </Link> */}
                     {/* <h2 className="enjoyontv">Enjoy on your TV.</h2> */}
                         <div >   
                             {/* <p className="watchon">Watch on WebTV, TurboGrafx-16, </p><br/> */}
                             <div>
                                 <ExternalLink href="https://photos.app.goo.gl/oaVRuuxCvAfqoL666">
-                                <img className="tvstyle" src={videogif} /> 
+                                <img className="tvstyle" src={videogif} alt='tv gif'/> 
                                 </ExternalLink>
                             </div> 
                             {/* <p className="watchon">Microwaves, Zune, LaserDisc players, and</p><br/>

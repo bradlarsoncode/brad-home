@@ -6,7 +6,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
-    caption: "this is a test",
+    alt: "this is a test",
     id: 0
   },
     {
@@ -15,7 +15,8 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
-    id: 1
+    id: 1,
+    alt: "this is a test",
   },
     {
     src: "https://webfilms-films.s3.amazonaws.com/place/image(2).jpg",
@@ -23,6 +24,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
+    alt: "this is a test",
     id: 2
   },
     {
@@ -31,6 +33,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
+    alt: "this is a test",
     id: 3
   },
     {
@@ -39,6 +42,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
+    alt: "this is a test",
     id: 4
   },
     {
