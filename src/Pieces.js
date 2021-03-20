@@ -28,15 +28,11 @@ caption: {
 };
 
 function Pieces() {
-
   return (
     <div className='piecesbg'>
       <Nav />
       <div className='pieces'>
-        <SRLWrapper 
-        // customCaptions={customCaptions}
-        options={options}
-        >
+        <SRLWrapper options={options}>
             <Gallery photos={photos} className='photoscont'/>
         </SRLWrapper>
       </div>

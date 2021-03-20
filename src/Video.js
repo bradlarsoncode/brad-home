@@ -3,8 +3,6 @@ import './Video.css'
 import { Jutsu } from 'react-jutsu'
 
 const Video = () => {
-  // const [room, setRoom] = useState('knowyourplace03232021');
-  // const [name, setName] = useState('YourName');
   const room = 'knowyourplace03232021';
   const name = 'YourName';
   const [call, setCall] = useState(false);
@@ -15,10 +13,10 @@ const Video = () => {
   };
 
   return call ? (
-      <Jutsu
+      <Jutsu 
         roomName={room}
         displayName={name}
-        containerStyles={{ display: 'block', width: '1200px', height: '800px', margin: 'auto', right: 'auto'}}
+        containerStyles={{ display: 'block', width: '1200px', height: '800px', margin: '5em auto', right: 'auto'}}
         onMeetingEnd={() => console.log('Meeting has ended')}
         loadingComponent={<p>loading ...</p>}
         errorComponent={<p>Oops, something went wrong</p>} />

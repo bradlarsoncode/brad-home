@@ -22,13 +22,9 @@ class Splash extends React.Component {
                         </ExternalLink>
                         <h1 className="unlimited">Unlimited movies, films,<br />
                             flicks, and more</h1>
-                           
-                                {/* <form className="sign-up"> */}
                                     <ExternalLink href="https://bradlarsoncode.github.io/Peace/">
                                             <button className="free">TRY 30 DAYS FREE</button>
                                     </ExternalLink>
-                                {/* </form>  */}
-                    
                         <p className="ready">Ready to watch? Click below to create or restart your membership.</p>
                         <h2 className="watch-anywhere">Watch anywhere. Cancel anytime.</h2>   
                     </div>
@@ -36,15 +32,6 @@ class Splash extends React.Component {
                         <Enjoy />
                     </div>
                 </div>
-                {/* <footer className="footfoot">
-                    <div className="splashfooter">
-                        <p className="splashfootertop">Hiring?</p>
-                        <a href="https://www.linkedin.com/in/bradlarsoncode" target="_blank" className="splashfooteritems">LinkedIn</a>
-                        <a href="https://github.com/bradlarsoncode/Webfilms" target="_blank" className="splashfooteritems">GitHub</a>
-                        <a href="https://angel.co/u/brad-larson-4" target="_blank" className="splashfooteritems">AngelList</a>
-                        <a href="http://www.bradlarson.me" target="_blank" className="splashfooteritems">Portfolio</a>
-                    </div>
-                </footer>    */}
             </div>
         )
     }

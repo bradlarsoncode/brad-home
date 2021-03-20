@@ -97,7 +97,7 @@ export const photos = [
     sizes: ["43vw"],
     width: 4,
     height: 3,
-    alt: `Artist: Evan -- wooden cups (that might not actually hold water)`,
+    alt: `Artist: Evan G-- wooden cups (that might not actually hold water)`,
     id: 6
   },
   {
