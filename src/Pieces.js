@@ -5,30 +5,20 @@ import { SRLWrapper } from "simple-react-lightbox";
 import './Place.css';
 import Nav from './Nav'
 
-// const customCaptions = [
-//   { id: 0, caption: "I wanted to make this in order to fullfill my desire to reach out to others" },
-//   { id: 1, caption: "captionTwo" },
-//   { id: 2, caption: "captionThree" },
-//    { id: 3, caption: "captionf" },
-//   { id: 4, caption: "captionfive" },
-//   { id: 5, caption: "captionsix" },
-//    { id: 6, caption: "caption7" }
-// ];
-
 const options = {
   settings: {
-    overlayColor: "rgb(25, 136, 124)",
+    overlayColor: "#e7d8c1",
   },
   buttons: {
-    backgroundColor: "#1b5245",
-    iconColor: "rgba(126, 172, 139, 0.8)",
+    backgroundColor: "rgba(0,0,0,.8)",
+    iconColor: "#FFFFFF",
   },
   
 caption: {
-  captionAlignment: 'start',
-  captionColor: '#FFFFFF',
-  captionContainerPadding: '20px 0 30px 0',
-  captionFontFamily: 'inherit',
+  captionAlignment: 'center',
+  captionColor: '#000000',
+  captionContainerPadding: '20px 200px 40px 200px',
+  captionFontFamily: 'Georgia',
   captionFontSize: 'inherit',
   captionFontStyle: 'inherit',
   captionFontWeight: 'inherit',

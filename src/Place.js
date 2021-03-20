@@ -6,7 +6,7 @@ import './Place.css';
 
 export default function Place() {
     return (
-        <div className='piecesbg'>
+        <div className='videobg'>
             <Nav/>
             <Video id='video' />
         </div>
