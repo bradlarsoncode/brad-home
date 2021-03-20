@@ -3,6 +3,7 @@ import Gallery from 'react-photo-gallery';
 import { photos } from "./Photos";
 import { SRLWrapper } from "simple-react-lightbox";
 import './Place.css';
+import Nav from './Nav'
 
 // const customCaptions = [
 //   { id: 0, caption: "I wanted to make this in order to fullfill my desire to reach out to others" },
@@ -14,12 +15,13 @@ import './Place.css';
 //    { id: 6, caption: "caption7" }
 // ]
 function Pieces() {
-  console.log(photos[1].id)
+
   return (
     <div className='piecesbg'>
+      <Nav />
       <div className='pieces'>
-        <SRLWrapper>
-            <Gallery photos={photos} />
+        <SRLWrapper >
+            <Gallery photos={photos} className='photoscont'/>
         </SRLWrapper> 
       </div>
     </div>

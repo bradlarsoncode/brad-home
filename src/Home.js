@@ -42,7 +42,7 @@ export default function Home() {
                             </ul> */} 
                         </div>
                             <span>
-                                <Link to="/place">
+                                <Link to="/pieces">
                                     <img src="https://webfilms-films.s3.amazonaws.com/place/door-1.png" id='btn1'></img>       
                                 </Link> 
                             </span>

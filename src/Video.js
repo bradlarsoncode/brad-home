@@ -21,8 +21,8 @@ const Video = () => {
         loadingComponent={<p>loading ...</p>}
         errorComponent={<p>Oops, something went wrong</p>} />
     ) : (
-          <button onClick={handleClick} type='submit'>
-            Join Group Video Chat
+          <button onClick={handleClick} type='submit' className='joinbutton'>
+            <img src='https://webfilms-films.s3.amazonaws.com/place/464-4646065_typewritter-typewriter-with-paper-png-transparent-png+copy.png'/>
           </button>
   )
 }
