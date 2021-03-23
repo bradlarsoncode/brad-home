@@ -7,7 +7,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
-    alt: `Jess B. -- crocheted mug/ice cream pint cozies`,
+    alt: `Jess B. -- crocheted mug/ice cream pint cozies. 'When pandemic stress surrounds me/And so much is still unknown/I "hug" my mug and sip some tea/To pause in the comfort of home.'`,
     id: 0
   },
     {
@@ -34,7 +34,8 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
-    alt: `Kitty O -- music and album artwork`,
+    alt: `Kitty O -- music and album artwork. 'The making of it was entirely done in my living room with Christopher Feagans
+    *not a stage prop, do not try at home*'`,   
     id: 3
   },
     {
@@ -43,7 +44,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
-    alt: `Ryan and Alison G. -- website of quarantine skills and activities`,
+    alt: `Ryan and Alison G. -- website of quarantine skills and activities. 'As one of the leading “homebody” couples  in the Philadelphia area, we attribute our reputation to the lasting  relationship with our couch and our hobbies.'`,
     id: 4
   },
     {
@@ -52,7 +53,7 @@ export const photos = [
     sizes: ["30vw"],
     width: 4,
     height: 3,
-    alt: 'Brie K. -- mixed-media snail folkart',
+    alt: 'Brie K. -- Glue snail mixed media study',
     id: 5
   },
     {
@@ -61,7 +62,7 @@ export const photos = [
     sizes: ["43vw"],
     width: 4,
     height: 3,
-    alt: `Emily H. -- dance performance`,
+    alt: `Emily H. -- dance performance. 'A dance-ish exploration of pandemic angst, and the life-upending confusion it made space for.'`,
     id: 6
   },
   {
@@ -79,7 +80,13 @@ export const photos = [
     sizes: ["43vw"],
     width: 4,
     height: 3,
-    alt: `Haley W. -- mixed-media needlepoint`,
+    alt: `Haley W. -- mixed-media needlepoint. 'My mom taught me to cross stitch as a kid, and I picked picked it back up as an adult - mostly to cross stitch profanity and 
+    other pieces that she would be deeply disappointed by. 
+    Right before the pandemic hit I started branching out into embroidery. Over the course of the pandemic, I've completed a number of embroidery and cross stitch kits. 
+    It especially helped keep me occupied in the beginning of lockdown when everything had just been turned upside down. Because I have the drawing skill of the average 4th grader, 
+    I decided to experiment with mixed media to create my own embroidery pattern for this project. I stamped the hands on the fabric and free stitched the flowers using 
+    some of the embroidery technique I've learned this past year. I like this piece because it makes me think of how in an incredibly dark year, the bright spots I had were always 
+    grown out of friends reaching out to share their love, hope, and support. '`,
     id: 6
   },
   {
@@ -97,7 +104,7 @@ export const photos = [
     sizes: ["43vw"],
     width: 4,
     height: 3,
-    alt: `Evan G. -- woodwork`,
+    alt: `Evan G. -- woodwork. 'The power company George Washingtoned this tree. So we, commandeered(?) it, for better purposes.'`,
     id: 6
   },
   {

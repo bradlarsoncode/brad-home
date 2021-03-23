@@ -49,6 +49,7 @@
 	padding: 4em;
 	box-shadow: 2px 3px 20px black, 0 0 125px #8f5922 inset;
 	background: #fffef0;
+  cursor: none;
 }
 
 #contain {
@@ -140,6 +141,7 @@ float: right;
 margin-top: 28vh;
 height: 23vh;
 opacity: .8;
+cursor: none;
 }
 @keyframes fadeIn {
  0% { opacity:0; }
@@ -169,5 +171,14 @@ opacity: .8;
  0% { opacity:0; }
     70% { opacity:0; }
 100% {opacity:.8;}
+}
+
+.cursor {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: -100px;
+  cursor: none;
+  pointer-events: none;
 }
 
