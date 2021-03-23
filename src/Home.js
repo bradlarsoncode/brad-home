@@ -4,18 +4,6 @@ import { Link } from 'react-router-dom';
 import $ from 'jquery';
 
 export default function Home() {
-
-    $(function () {
-        $("#parchment").mousemove(function (e) {
-            $(".cursor").show().css({
-                "left": e.clientX-120,
-                "top": e.clientY-30
-                
-            });
-        }).mouseout(function () {
-            $(".cursor").hide();
-        });
-    });
         return (         
             <div id='homeBG'>
                 <div id="parchment"><img src='https://webfilms-films.s3.amazonaws.com/keykey.png' alt='key' className='cursor'/>
