@@ -6,8 +6,6 @@ import logo from './logo.png'
 
 class Splash extends React.Component {
     render(){
-        const birthday = true
-        console.log(birthday === true)
         return(
             <div className="blackbg">
                 <div className="wrapper">

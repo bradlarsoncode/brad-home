@@ -32,6 +32,7 @@ function Pieces() {
   return (
     <div className='piecesbg'>
       <Nav />
+      <p className='instructions'>Click photos to see artists. Leave comments at the bottom. And/or join the live video chat.</p>
       <div className='pieces'>
         <SRLWrapper options={options}>
             <Gallery photos={photos} className='photoscont'/>

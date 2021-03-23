@@ -131,7 +131,7 @@ input {
     margin-top: 6%;
     margin-bottom: 1%;
     display: inline-block;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .watchon{

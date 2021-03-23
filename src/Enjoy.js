@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom';
 class Enjoy extends React.Component {
     render() {
         return <div className="subbar"> 
-                    {/* <Link to="/home"> */}
+                    <Link to="/home">
                         <img src='https://webfilms-films.s3.amazonaws.com/keykey.png' className="enjoyontv" alt='key'/>
-                    {/* </Link> */}
+                    </Link>
                         <div >   
                             <div>
                                 <ExternalLink href="https://photos.app.goo.gl/oaVRuuxCvAfqoL666">

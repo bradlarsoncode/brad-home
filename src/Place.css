@@ -43,3 +43,10 @@
   height: 100vh;
   padding-bottom: 3em;  
 }
+
+.instructions{
+  color: white;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

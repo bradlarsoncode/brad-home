@@ -95,7 +95,8 @@ export const photos = [
     sizes: ["43vw"],
     width: 4,
     height: 3,
-    alt: `Kyle K. -- needpoint`,
+    alt: `Kyle K. -- needpoint. 'Staying home for Covid provided the push for me to try embroidery after a couple years of saying I'd like to try it. 
+    The bright colors and simple designs along with making something tangible and watching the progress along the way, were very therapeutic and satisfying for me:)'`,
     id: 6
   },
   {

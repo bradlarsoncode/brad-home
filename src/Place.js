@@ -8,6 +8,7 @@ export default function Place() {
         <div className='videobg'>
             <Nav/>
             <Video/>
+            <p className='instructions'>You may have permission issues with your camera or audio if you didn't use 'https'. The 's' matters.</p>
         </div>
     )
 }
