@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
         return (         
             <div id='homeBG'>
-                <div id="parchment"><img src='https://webfilms-films.s3.amazonaws.com/keykey.png' alt='key' className='cursor'/>
+                <div id="parchment">
                     <div id='contain'>
                         <div className="typewriter">
                             <h1>Know Your Place.</h1>

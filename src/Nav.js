@@ -11,7 +11,7 @@ export default function Nav() {
                     <Link to="/pieces">Pieces</Link>
                 </li>
                 <li>
-                    <Link to="/place">Video Chat</Link>
+                    <Link to="/place">   (Optional)Video Chat</Link>
                 </li>
             </ul>
         </nav>
