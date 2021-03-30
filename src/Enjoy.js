@@ -4,20 +4,13 @@ import { ExternalLink } from 'react-external-link';
 import {Link} from 'react-router-dom';
 
 function Enjoy (){
-    // dateCheck(){
-    //         const today = new Date();
-    //             if(today.getDay() === 2 && today.getHours() === 19){
-    //                 return true;
-    //             }
-    //         return false;
-    //     }
 
     const timeNow = new Date();
-    const whichDay = timeNow.getDay();
-    const whatHour = timeNow.getHours();
+    const whichDay = timeNow.getUTCDay();
+    const whatHour = timeNow.getUTCHours();
 
     return <div className="subbar">
-                {whichDay === 2 && whatHour === 20
+                {whichDay === 3 && whatHour === 0
                 ?   <Link to="/home">
                         <img src='https://webfilms-films.s3.amazonaws.com/keykey.png' className="enjoyontv" alt='key'/>
                     </Link>
