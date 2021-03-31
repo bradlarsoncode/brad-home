@@ -8,12 +8,15 @@ function Enjoy (){
     const timeNow = new Date();
     const whichDay = timeNow.getUTCDay();
     const whatHour = timeNow.getUTCHours();
+    const minutes = timeNow.getUTCMinutes();
+    const seconds = timeNow.getUTCSeconds();
 
-    return <div className="subbar">
+    return <div className="subbar"> 
                 {whichDay === 3 && whatHour === 0
                 ?   <Link to="/home">
                         <img src='https://webfilms-films.s3.amazonaws.com/keykey.png' className="enjoyontv" alt='key'/>
                     </Link>
+                    
                 :<img src='https://webfilms-films.s3.amazonaws.com/keykey.png' className="hiddenkey" alt='key'/>}
                 
                     <div >   
@@ -23,7 +26,7 @@ function Enjoy (){
                             </ExternalLink>
                         </div> 
                     </div>
-                    
+                    {/* {whatHour === 0 && whichDay === 3 && minutes === 0 && seconds === 0 ? window.location.reload(true) : null} */}
             </div>
 }
 

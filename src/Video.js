@@ -1,21 +1,23 @@
-import React, { useState } from 'react'
-import './Video.css'
-import { Jutsu } from 'react-jutsu'
+import React, { useState } from 'react';
+import './Video.css';
+import { Jutsu } from 'react-jutsu';
+
+
 
 const Video = () => {
   const room = 'knowyourplace03232021';
-  const name = 'YourName';
+  // const name = 'YourName';
   const [call, setCall] = useState(false);
 
   const handleClick = event => {
     event.preventDefault();
-    if (room && name) setCall(true);
+    if (room) setCall(true);
   };
 
   return call ? (
       <Jutsu 
         roomName={room}
-        displayName={name}
+        // displayName={name}
         containerStyles={{ display: 'block', width: '1200px', height: '800px', margin: '5em auto', right: 'auto'}}
         onMeetingEnd={() => console.log('Meeting has ended')}
         loadingComponent={<p>loading ...</p>}

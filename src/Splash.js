@@ -5,6 +5,7 @@ import { ExternalLink } from 'react-external-link';
 import logo from './logo.png'
 
 class Splash extends React.Component {
+    
     render(){
         return(
             <div className="blackbg">
